@@ -1,0 +1,14 @@
+.footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: lightgray;
+    margin-top: 70px;
+}
+.admin_link {
+    color: gray;
+    text-decoration: none;
+    font-size: var(--textFontSize);
+    font-family: var(--secondaryFF);
+}

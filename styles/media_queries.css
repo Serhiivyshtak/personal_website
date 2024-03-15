@@ -1,0 +1,322 @@
+@media (max-width: 440px) { 
+    .about_section_inner, 
+    .skills_section_inner,
+    .social_media_inner,
+    .contact_form {
+        width: 98vw !important;
+        padding: 100px 0 !important;
+    }
+    .social_media_section {
+        padding: 100px 0 !important;
+    }
+    .header_inner,
+    .content_area_inner,
+    .message_container,
+    .create_bi_container,
+    .bi_admin_container,
+    .cp_container,
+    .passwords_container {
+        width: 98vw !important;
+    }
+    .skill_item {
+        width: 96% !important;
+    }
+    .skill_name {
+        font-size: 60px !important;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 920px) { 
+    .about_section_inner, 
+    .skills_section_inner,
+    .social_media_inner,
+    .contact_form {
+        width: 95vw !important;
+        padding: 150px 0 !important;
+    }
+    .social_media_section {
+        padding: 150px 0 !important;
+    }
+    .header_inner,
+    .content_area_inner,
+    .message_container,
+    .create_bi_container,
+    .bi_admin_container,
+    .cp_container,
+    .passwords_container {
+        width: 95vw !important;
+    }
+    .skill_item {
+        width: 96% !important;
+    }   
+    .skill_name {
+        font-size: 70px !important;
+    }
+}
+
+@media(max-width: 800px) {
+    .name {
+        transform: translateX(0) !important;
+        transform: translateY(-50px) !important;
+    }
+    .home {
+        height: max-content !important;
+        padding: 150px 0 !important;
+    }
+    .sm_list {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .sm_item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .sm_icon {
+        height: 50vw;
+        width: 50vw;
+    }
+}
+
+@media (min-width: 920px) and (max-width: 1190px) {
+    .content_area_inner,
+    .header_inner, 
+    .about_section_inner, 
+    .skills_section_inner,
+    .social_media_inner,
+    .contact_form,
+    .message_container,
+    .create_bi_container,
+    .bi_admin_container,
+    .cp_container,
+    .passwords_container {
+        width: 90vw !important;
+    }
+    .item_image {
+        width: 29vw;
+        height: 29vw;
+    }
+    .content_item_text_container {
+        width: 59vw;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+    :root {
+        --containerOuterPadding : 280px 0; /*done*/
+        --headingFontSize: 70px; /*done*/
+        --textFontSize: 28px; /*done*/
+        --borderRadius: 7px; /*done*/
+    }
+    .header_inner {
+        padding: 14px 0 !important; /*done*/
+    }
+    .header_logo { 
+        font-size: 42px !important; /*done*/
+    }
+    .menu_button_image {
+        height: 42px !important; /*done*/
+        width: 42px !important; /*done*/
+    }
+    .alert_success {
+        top: -140px !important; /*done*/
+        padding: 14px 0 !important; /*done*/
+    }
+    .menu {
+        right: -470px !important; /*done*/
+        border-left: 2.8px solid var(--additionalColor) !important; /*done*/
+        width: 420px !important; /*done*/
+    }
+    .image_container {
+        width: 560px !important; /*done*/
+        height: 770px !important; /*done*/
+        border: 11.2px var(--additionalColor) solid !important; /*done*/
+    }
+    .home_content_container {
+        width: 420px !important; /*done*/
+    }
+    .name {
+        font-size: 112px !important; /*done*/
+    }
+    .home_nav_link:hover {
+        font-size: 42px !important; /*done*/
+    }
+    .skills_section {
+        border-top: 7px solid white !important; /*done*/
+    }
+    .skills_list {
+        gap: 14px 0px !important; /*done*/
+    }
+    .skill_item {
+        border: 2.8px solid white !important; /*done*/
+        padding: 42px 0 !important; /*done*/
+    }
+    .skill_name {
+        font-size: 140px !important; /*done*/
+    }
+    .sm_icon {
+        width: 112px !important; /*done*/
+        height: 112px !important; /*done*/
+    }
+    .input_container {
+        gap: 42px !important; /*done*/
+    }
+    .contact_input {
+        border-bottom: 2.8px solid white !important; /*done*/
+    }
+    .contact_form_send_button {
+        margin-top: 28px !important; /*done*/
+        padding: 14px 0 !important; /*done*/
+    }
+    .contact_form_error_container {
+        margin-bottom: 42px !important; /*done*/
+    }
+    .header_inner {
+        padding: 14px 0 !important; /*done*/
+    }
+    .header_logo {
+        font-size: 42px !important; /*done*/
+    }
+    .back_button {
+        height: 42px !important; /*done*/
+        width: 42px !important; /*done*/
+    }
+    .content_item {
+        border-bottom: 1.4px solid black !important; /*done*/
+        padding: 140px 0 !important; /*done*/
+    }
+    .content_item_heading_container {
+        margin-bottom: 14px !important; /*done*/
+    }
+    .content_item_date_container {
+        margin-bottom: 42px !important; /*done*/
+    }
+    .content_item_description_container {
+        margin-bottom: 42px !important; /*done*/
+    }
+    .content_item_button {
+        border: 1.4px solid black; /*done*/
+        padding: 14px 28px !important; /*done*/
+    }
+    .content_item_button:hover {
+        border: 1.4px solid black !important; /*done*/
+    }
+    .single_ci{
+        border-bottom: 1px solid black;
+        padding: 140px 0 !important; /*done*/
+    }
+    .ci_text {
+        margin-bottom: 70px !important; /*done*/   
+    }
+}
+
+
+@media (min-width: 2000px) {
+    :root {
+        --containerOuterPadding : 364px 0;
+        --headingFontSize: 91px;
+        --textFontSize: 36.4px;
+        --borderRadius: 9.1px;
+    }
+    .header_inner {
+        padding: 18.2px 0 !important;
+    }
+    .header_logo { 
+        font-size: 54.6px !important;
+    }
+    .menu_button_image {
+        height: 54.6px !important;
+        width: 54.6px !important;
+    }
+    .alert_success {
+        top: -182px !important;
+        padding: 18.2px 0 !important;
+    }
+    .menu {
+        right: -611px !important;
+        border-left: 3.64px solid var(--additionalColor) !important;
+        width: 54.6px !important;
+    }
+    .image_container {
+        width: 728px !important;
+        height: 1001px !important;
+        border: 14.56px var(--additionalColor) solid !important;
+    }
+    .home_content_container {
+        width: 546px !important;
+    }
+    .name {
+        font-size: 145.6px !important;
+    }
+    .home_nav_link:hover {
+        font-size: 54.6px !important;
+    }
+    .skills_section {
+        border-top: 9.1px solid white !important;
+    }
+    .skills_list {
+        gap: 18.2px 0px !important;
+    }
+    .skill_item {
+        border: 3.64px solid white !important;
+        padding: 54.6px 0 !important;
+    }
+    .skill_name {
+        font-size: 172px !important;
+    }
+    .sm_icon {
+        width: 145.6px !important;
+        height: 145.6px !important;
+    }
+    .input_container {
+        gap: 54.6px !important;
+    }
+    .contact_input {
+        border-bottom: 3.64px solid white !important;
+    }
+    .contact_form_send_button {
+        margin-top: 36.4px !important;
+        padding: 18.2px 0 !important;
+    }
+    .contact_form_error_container {
+        margin-bottom: 54.6px !important;
+    }
+    .header_inner {
+        padding: 18.2px 0 !important;
+    }
+    .header_logo {
+        font-size: 54.6px !important;
+    }
+    .back_button {
+        height: 54.6px !important;
+        width: 54.6px !important;
+    }
+    .content_item {
+        border-bottom: 1.82px solid black !important;
+        padding: 182px 0 !important;
+    }
+    .content_item_heading_container {
+        margin-bottom: 18.2px !important;
+    }
+    .content_item_date_container {
+        margin-bottom: 54.6px !important;
+    }
+    .content_item_description_container {
+        margin-bottom: 54.6px !important;
+    }
+    .content_item_button {
+        border: 1.82px solid black;
+        padding: 18.2px 36.4px !important; 
+    }
+    .content_item_button:hover {
+        border: 1.82px solid black !important;
+    }
+    .single_ci{
+        border-bottom: 1px solid black;
+        padding: 182px 0 !important;
+    }
+    .ci_text {
+        margin-bottom: 91px !important;  
+    }
+}

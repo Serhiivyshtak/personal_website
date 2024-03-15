@@ -1,0 +1,9 @@
+:root {
+    --additionalColor: rgb(134, 14, 134);
+    --mainFF: "Bebas Neue", sans-serif;
+    --secondaryFF: "Cabin", sans-serif;
+    --containerOuterPadding : 200px 0;
+    --headingFontSize: 50px;
+    --textFontSize: 20px;
+    --borderRadius: 5px;
+}
